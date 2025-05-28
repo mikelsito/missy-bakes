@@ -23,7 +23,7 @@ const Header = () => {
                 alt="Missy Bakes Logo"
                 width={120}
                 height={40}
-                priority
+                className="h-auto"
               />
             </Link>
           </div>
