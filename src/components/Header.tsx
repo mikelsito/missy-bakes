@@ -1,7 +1,6 @@
 "use client"
 
 import Link from 'next/link';
-import Image from 'next/image';
 import { useState } from 'react';
 
 const Header = () => {
@@ -18,7 +17,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
-              <Image
+              <img
                 src="/images/logos/logo-no-image.png"
                 alt="Missy Bakes Logo"
                 width={120}
